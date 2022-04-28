@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center|top"
+    >
+
+    <ImageButton
+        android:id="@+id/services_maintenance_image_button"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/menu_services"
+        android:src="@drawable/repair"
+        app:layout_constraintBottom_toTopOf="@+id/services_cleaning"
+        app:layout_constraintEnd_toEndOf="@+id/services_restoration_renovation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/services_restoration_renovation"
+        app:layout_constraintTop_toBottomOf="@+id/services_restoration_renovation"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/services_restoration_renovation_image_button"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/menu_services"
+        android:src="@drawable/cleaning"/>
+
+
+</LinearLayout>

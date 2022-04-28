@@ -1,0 +1,24 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ProjectUIv0.1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_services">Services</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_tasks">Tasks</string>
+    <string name="menu_action_log_out">Logout</string>
+
+    <string name="app_title">JobLer</string>
+    <string name="user_name"><xliff:g example="Sanyar" id="user_name">%username</xliff:g></string>
+    <string name="user_account_type"><xliff:g example="worker" id="account_type">%accountType</xliff:g></string>
+    <string name="worker_name">Worker Name</string>
+    <string name="worker_contact">Worker Phone Number</string>
+    <string name="worker_rating">5</string>
+    <string name="worker_location">Iraq-Sulaimania-Ibrahim Pasha Street</string>
+    <string name="worker_request_services">Request Services</string>
+    <string name="worker_job_count">Job Done: <xliff:g example="100" id="job_count">%d</xliff:g></string>
+    <string name="house_maintenance">Maintenance Services</string>
+    <string name="house_cleaning">Cleaning and renovation Services</string>
+    <string name="services_categories">Categories</string>
+</resources>
